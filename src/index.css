@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+
+:root{
+    /*===== Fonts Family=====*/
+    --h2-font-family:'Ubuntu', sans-serif;
+    --h3-font-family:'Rubik', sans-serif;
+    --h4-font-family:'Nunito', sans-serif;
+
+     /*===== Fonts size=====*/
+    --h2-font-size:2.25rem;
+    --h3-font-size:1.85rem;
+    --h4-font-size:1.65rem;
+    --normal-font-size:1rem;
+    --big-font-size:3.5rem;
+    --small-font-size:1.2rem;
+
+       /*===== Fonts color=====*/
+    --first-color:hsl(14, 89%, 56%);
+    --title-color:hsl(240, 29%, 35%);
+    --text-color:hsl(244,16%,43%);
+    --body-color:hsl(258,60%,98%);
+    --container-color:#fff;
+
+
+       /*=====Box shadow=====*/
+
+    --shadow:0px 5px 20px 0px rgb(69 67 96 / 10%);
+
+
+}
+
+
+/*=================BASE======================*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+body{
+    background-color: var(--body-color);
+    line-height: 1.5;
+    color: var(--text-color);
+   
+    
+}
+html{
+    overflow-x: hidden;
+   
+}
+h2,h3,h4{
+  
+    line-height: 1.2;
+}
+
+ul{
+    list-style: none;
+}
+
+button{
+    cursor: pointer;
+   
+}
+
+/*==========ReUsable CSS Classes==========*/
+
+.container
+{
+  max-width: 1090px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+
+.section
+{
+  padding-top: 1.5rem;
+  padding-bottom: 2rem;
+}

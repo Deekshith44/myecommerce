@@ -1,0 +1,91 @@
+.grid__container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    align-items: center;
+    text-align: center;
+    grid-gap:20px;
+   
+   
+}
+
+.explore__title{
+    font-size: var(--h4-font-size);
+    font-family: var(--h4-font-family);
+    font-weight: bold;
+    color: var(--title-color);
+}
+
+.tab__container{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    max-width: 1000px;
+   
+}
+
+.tab{
+    margin-left: 265px;
+    display: flex;
+   gap:30px;
+   
+ 
+
+  
+}
+
+
+.tabcard{
+  
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 5px;
+   
+}
+
+.bag__holder{
+    color: black;
+    font-weight: bold;
+}
+
+.tab__design{
+   width: 50px;
+    height: 65px;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border: 1px solid rgb(155, 133, 175);
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+   transition: .3s all ease-in-out;
+    position: relative;
+}
+
+.tab__design:hover{
+    transform: translateY(-10px);
+    color:white;
+
+   background-color:blueviolet;
+}
+
+.tab__logo:active{
+    color: #ff7d59;
+}
+
+.bag__holder{
+    position: absolute;
+    top:-14px;
+}
+
+.tab__title{
+    color: var(--title-color);
+    font-family: var(--h3-font-family);
+}
+
+.tab__logo{
+    color: black;
+    font-size: 1.25rem;
+}

@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+
+.common__section{
+    margin-top: 20px;
+   /* background-color: rgb(207, 158, 253);*/
+    border: 2px solid transparent;
+    border-radius: 19px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:50px;
+   
+    
+}
+
+.details__section h2{
+    font-family:  'Lilita One', cursive;
+    text-transform: uppercase;
+    font-size: var(--big-font-size);
+    letter-spacing: 16px;
+    color:var(--title-color);
+
+}
+
+.details__section h3{
+    font-family:  'Lilita One', cursive;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: var(--big-font-size);
+    margin-left: 20px;
+    letter-spacing: 15px;
+  /*  color:rgb(245, 115, 63);*/
+  color:   #ff7d59;
+}
+
+.details__section p{
+  color: var(--text-color);
+  font-family: var(--h4-font-family);
+  line-height: 1.3;
+  font-size: var(--small-font-size);
+  width: 100%;
+
+}
+
+
+
+.image__section img{
+    width: 600px;
+    height: 450px;
+    clip-path: circle(41%); 
+    background-color: #ff7d59; 
+background-image: linear-gradient(319deg, #ff7d59 0%, #ff583a 37%, #f4a698 100%);
+
+   /* background-color: #d4418e;*/
+
+}

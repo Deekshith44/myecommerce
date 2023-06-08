@@ -1,0 +1,11 @@
+.grid__container_menu{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-gap: 10px;
+}
+
+.sort_and_data__section{
+    display: grid;
+    grid-template-rows: 20px 80px;
+    grid-gap: 10px;
+}

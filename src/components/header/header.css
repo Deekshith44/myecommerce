@@ -1,0 +1,51 @@
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.max__width{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+
+.profile img{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+
+.link__list{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+
+
+.logo h1{
+    color: blueviolet;
+    font-size: var(--h2-font-size);
+    font-family: var(--h4-font-family);
+    font-weight: 600;
+}
+
+span{
+    color: var(--first-color);
+}
+
+.link__list .links h3{
+    color: var(--title-color);
+    text-transform: uppercase;
+    font-family: var(--h3-font-family);
+    font-size: var(--normal-font-size);
+    transition: .2s linear;
+}
+
+.link__list .links h3:hover{
+    color: var(--first-color);
+}
+
+
